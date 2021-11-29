@@ -1,0 +1,420 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+.header-container {
+  background: #262c4b;
+}
+.row-1 {
+  padding-top: 100px;
+}
+.col-content {
+  padding: 30px;
+}
+.row-1 .col-content {
+  color: #fff;
+}
+.logo-text {
+  color: #ffff;
+  margin: auto;
+}
+.row-1 .col-content p {
+  font-size: 1.2rem;
+}
+.site-quote {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.row-1-img {
+  justify-content: center;
+  display: flex;
+  height: 500px;
+}
+.section-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #262c4b;
+}
+.bg-1 {
+  position: relative;
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+/* Contract inputs */
+#contract-input,
+#contract-link {
+  background: #262c4b;
+  padding: 12px 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  width: 90%;
+  border: none;
+}
+/*Navigation */
+
+.navbar-dark .navbar-nav {
+  width: 100%;
+  justify-content: end;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #d91c38;
+  background: 0 0 !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.nav-link:hover {
+  color: #d91c38;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.bg-nav {
+  background: #262c4b;
+}
+
+/* Header */
+.coin-box {
+  background: rgba(47, 57, 104, 1);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #ebebeb;
+}
+.contract-box {
+  margin-bottom: 15px;
+}
+.contract-box > p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.coin-b-title {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.coin-logo {
+  height: 50px;
+}
+.chain-box {
+  position: relative;
+  /* top: 150px; */
+  margin: auto;
+}
+.chain-fluid {
+  padding: 50px 0;
+  background-image: linear-gradient(
+      rgba(23, 75, 172, 0.8),
+      rgba(20, 69, 160, 0.8)
+    ),
+    url("../images/bg-flag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.track-fluid {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(
+      rgba(23, 75, 172, 0.8),
+      rgba(20, 69, 160, 0.8)
+    ),
+    url("../images/brandon-bg-1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.track-fluid p {
+  color: #aeaeae;
+}
+
+/* Road map boxes */
+.bag-man {
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+}
+.road-map-title {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.road-map-r .section-heading {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.road-map-r .col-mb {
+  margin-bottom: 50px;
+}
+@media (max-width: 599px) {
+  .road-map-r section.pricing {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bag-man {
+    display: none;
+  }
+  .section-title {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .road-map-title {
+    margin-bottom: 180px;
+  }
+  #contract-input,
+  #contract-link {
+    width: 100%;
+  }
+}
+.road-map-r .btn-primary {
+  background: #3f3f3f;
+  border: none;
+}
+.road-map-r .btn-primary:hover {
+  background: #9ec41a;
+}
+.road-map-r .pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.road-map-r .pricing hr {
+  margin: 1.5rem 0;
+}
+.road-map-r .pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+.road-map-r .pricing .card-price {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.road-map-r .pricing .card-price .period {
+  font-size: 0.8rem;
+}
+.road-map-r .pricing ul li {
+  margin-bottom: 1rem;
+}
+.road-map-r .pricing .text-muted {
+  opacity: 0.7;
+}
+.road-map-r .pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+.road-map-r .row.boxes-row {
+  align-items: center;
+}
+.road-map-r .box-content {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.road-map-r .gt-process .card-price {
+  color: #454545 !important;
+  font-size: 2.5rem;
+}
+.road-map-r .pricing .card-price {
+  color: #505c9a;
+}
+.road-map-r .card-body p {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .road-map-r .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .road-map-r .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+.price-list {
+  position: relative;
+}
+.rocket {
+  position: absolute;
+  top: -150px;
+  z-index: -10;
+}
+/* Tokenomics */
+.tkn-box {
+  background: #262c4b;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.tkn-box h5 {
+  color: #fff;
+  padding: 20px 10px;
+}
+/* .tkn-box-imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+} */
+/* Tooltip */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/* Social block */
+.social-block {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.social-block a {
+  color: #5da9fb;
+}
+.social-block a:hover {
+  color: #fff;
+}
+/* Footer */
+.footer-box {
+  color: #fff;
+}
+.footer-row {
+  padding-top: 50px;
+}
+.special-text {
+  text-decoration: underline;
+  text-decoration-color: rgb(42, 79, 255);
+  -moz-text-decoration-color: rgb(42, 79, 255);
+}
+.copy-text {
+  color: #fff;
+  text-align: center;
+}
+.footer-col {
+  margin-bottom: 30px;
+}
+.footer-title {
+  font-size: 2rem;
+}
+.footer-text {
+  font-size: 1rem;
+}
+/* RESPONSIVE */
+@media (min-width: 700px) {
+  .social-block {
+    width: 60%;
+  }
+  .tkn-box-imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+}
+
+/* NAV */
+.nav-link {
+  color: #ffffff;
+}
+.nav-pills .nav-link {
+  font-size: 1rem;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #d91c38;
+  background: 0 0 !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #d91c38;
+}
+/* Content pages */
+.content-wrapper {
+  background: #fff;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.content-wrapper > .content-block {
+  margin-bottom: 30px;
+}
+.page-about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(
+      rgba(23, 75, 172, 0.8),
+      rgba(20, 69, 160, 0.8)
+    ),
+    url("../images/american-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
